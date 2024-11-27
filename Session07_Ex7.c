@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+	int a,i,b,num;
+	printf("Nhap so phan tu cua mang: ");
+	scanf("%d", &i);
+
+	for( b=0; b<i; b++){
+	
+	printf("Nhap phan tu co trong mang: ");
+	scanf("%d", &a);
+		if(a%2==0){
+		printf("Nhap lai phan tu co trong mang: ");
+		scanf("%d", &a);
+		b--;
+	
+		
+	}
+	}
+}
