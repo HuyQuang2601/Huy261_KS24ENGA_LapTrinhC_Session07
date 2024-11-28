@@ -1,10 +1,13 @@
 #include <stdio.h>
-int n;
+int main(){
+
+	int n;	
+	
     printf("Nhap so phan tu cua mang:\n ");
-    scanf("%d", &n2);
-    int arr5[n2];
+    scanf("%d", &n);
+    int arr5[n];
     printf("Nhap %d phan tu cho mang:\n", n);
-    for (int i = 0; i < n i++) {
+    for (int i = 0; i < n ;i++){
         printf("Nhap phan tu %d: ", i + 1);
         scanf("%d", &arr5[i]);
     }
